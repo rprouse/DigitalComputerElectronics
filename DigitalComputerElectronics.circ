@@ -149,4 +149,127 @@
     <wire from="(90,230)" to="(120,230)"/>
     <wire from="(90,50)" to="(140,50)"/>
   </circuit>
+  <circuit name="D_Latch">
+    <a name="appearance" val="logisim_evolution"/>
+    <a name="circuit" val="D_Latch"/>
+    <a name="circuitnamedboxfixedsize" val="true"/>
+    <a name="simulationFrequency" val="1.0"/>
+    <comp lib="0" loc="(140,50)" name="Tunnel">
+      <a name="label" val="Enable"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
+    </comp>
+    <comp lib="0" loc="(190,360)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="Enable"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
+    </comp>
+    <comp lib="0" loc="(60,430)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+    </comp>
+    <comp lib="0" loc="(90,170)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="Enable"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
+    </comp>
+    <comp lib="0" loc="(90,50)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+    </comp>
+    <comp lib="1" loc="(140,110)" name="AND Gate">
+      <a name="size" val="30"/>
+    </comp>
+    <comp lib="1" loc="(140,230)" name="AND Gate">
+      <a name="size" val="30"/>
+    </comp>
+    <comp lib="1" loc="(150,290)" name="NOT Gate">
+      <a name="size" val="20"/>
+    </comp>
+    <comp lib="1" loc="(240,300)" name="AND Gate">
+      <a name="size" val="30"/>
+    </comp>
+    <comp lib="1" loc="(240,420)" name="AND Gate">
+      <a name="size" val="30"/>
+    </comp>
+    <comp lib="1" loc="(250,120)" name="NOR Gate">
+      <a name="size" val="30"/>
+    </comp>
+    <comp lib="1" loc="(250,220)" name="NOR Gate">
+      <a name="size" val="30"/>
+    </comp>
+    <comp lib="1" loc="(350,310)" name="NOR Gate">
+      <a name="size" val="30"/>
+    </comp>
+    <comp lib="1" loc="(350,410)" name="NOR Gate">
+      <a name="size" val="30"/>
+    </comp>
+    <comp lib="5" loc="(390,120)" name="LED">
+      <a name="label" val="Q1"/>
+    </comp>
+    <comp lib="5" loc="(390,220)" name="LED">
+      <a name="label" val="NQ1"/>
+    </comp>
+    <comp lib="5" loc="(490,310)" name="LED">
+      <a name="label" val="Q3"/>
+    </comp>
+    <comp lib="5" loc="(490,410)" name="LED">
+      <a name="label" val="NQ3"/>
+    </comp>
+    <comp lib="5" loc="(90,100)" name="Button">
+      <a name="label" val="RST"/>
+    </comp>
+    <comp lib="5" loc="(90,240)" name="Button">
+      <a name="label" val="SET"/>
+    </comp>
+    <comp lib="8" loc="(283,286)" name="Text">
+      <a name="text" val="D Latch"/>
+    </comp>
+    <comp lib="8" loc="(334,77)" name="Text">
+      <a name="text" val="S-R Latch with Enable"/>
+    </comp>
+    <wire from="(100,120)" to="(100,170)"/>
+    <wire from="(100,120)" to="(110,120)"/>
+    <wire from="(100,170)" to="(100,220)"/>
+    <wire from="(100,220)" to="(110,220)"/>
+    <wire from="(140,110)" to="(210,110)"/>
+    <wire from="(140,230)" to="(210,230)"/>
+    <wire from="(150,290)" to="(210,290)"/>
+    <wire from="(160,130)" to="(160,160)"/>
+    <wire from="(160,130)" to="(210,130)"/>
+    <wire from="(160,160)" to="(310,160)"/>
+    <wire from="(160,180)" to="(160,210)"/>
+    <wire from="(160,180)" to="(320,180)"/>
+    <wire from="(160,210)" to="(210,210)"/>
+    <wire from="(190,360)" to="(200,360)"/>
+    <wire from="(200,310)" to="(200,360)"/>
+    <wire from="(200,310)" to="(210,310)"/>
+    <wire from="(200,360)" to="(200,410)"/>
+    <wire from="(200,410)" to="(210,410)"/>
+    <wire from="(240,300)" to="(310,300)"/>
+    <wire from="(240,420)" to="(310,420)"/>
+    <wire from="(250,120)" to="(320,120)"/>
+    <wire from="(250,220)" to="(310,220)"/>
+    <wire from="(260,320)" to="(260,350)"/>
+    <wire from="(260,320)" to="(310,320)"/>
+    <wire from="(260,350)" to="(410,350)"/>
+    <wire from="(260,370)" to="(260,400)"/>
+    <wire from="(260,370)" to="(420,370)"/>
+    <wire from="(260,400)" to="(310,400)"/>
+    <wire from="(310,160)" to="(310,220)"/>
+    <wire from="(310,220)" to="(390,220)"/>
+    <wire from="(320,120)" to="(320,180)"/>
+    <wire from="(320,120)" to="(390,120)"/>
+    <wire from="(350,310)" to="(420,310)"/>
+    <wire from="(350,410)" to="(410,410)"/>
+    <wire from="(410,350)" to="(410,410)"/>
+    <wire from="(410,410)" to="(490,410)"/>
+    <wire from="(420,310)" to="(420,370)"/>
+    <wire from="(420,310)" to="(490,310)"/>
+    <wire from="(60,430)" to="(70,430)"/>
+    <wire from="(70,290)" to="(130,290)"/>
+    <wire from="(70,290)" to="(70,430)"/>
+    <wire from="(70,430)" to="(210,430)"/>
+    <wire from="(90,100)" to="(110,100)"/>
+    <wire from="(90,170)" to="(100,170)"/>
+    <wire from="(90,240)" to="(110,240)"/>
+    <wire from="(90,50)" to="(140,50)"/>
+  </circuit>
 </project>
