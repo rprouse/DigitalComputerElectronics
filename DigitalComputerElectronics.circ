@@ -272,4 +272,42 @@
     <wire from="(90,240)" to="(110,240)"/>
     <wire from="(90,50)" to="(140,50)"/>
   </circuit>
+  <circuit name="D_Flip_Flop">
+    <a name="appearance" val="logisim_evolution"/>
+    <a name="circuit" val="D_Flip_Flop"/>
+    <a name="circuitnamedboxfixedsize" val="true"/>
+    <a name="simulationFrequency" val="1.0"/>
+    <comp lib="0" loc="(140,50)" name="Tunnel">
+      <a name="label" val="CLK"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
+    </comp>
+    <comp lib="0" loc="(200,130)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="CLK"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
+    </comp>
+    <comp lib="0" loc="(60,50)" name="Clock"/>
+    <comp lib="0" loc="(90,230)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="CLK"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
+    </comp>
+    <comp lib="10" loc="(210,130)" name="Digital Oscilloscope"/>
+    <comp lib="4" loc="(120,180)" name="D Flip-Flop">
+      <a name="appearance" val="logisim_evolution"/>
+    </comp>
+    <comp lib="5" loc="(70,190)" name="Button">
+      <a name="label" val="D"/>
+    </comp>
+    <wire from="(110,190)" to="(120,190)"/>
+    <wire from="(110,230)" to="(120,230)"/>
+    <wire from="(170,190)" to="(210,190)"/>
+    <wire from="(200,130)" to="(210,130)"/>
+    <wire from="(60,50)" to="(140,50)"/>
+    <wire from="(70,190)" to="(90,190)"/>
+    <wire from="(90,160)" to="(210,160)"/>
+    <wire from="(90,160)" to="(90,190)"/>
+    <wire from="(90,190)" to="(110,190)"/>
+    <wire from="(90,230)" to="(110,230)"/>
+  </circuit>
 </project>
